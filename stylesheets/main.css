@@ -35,3 +35,8 @@ body {
   background-color: #5b0791;
   color: #fff;
 }
+
+/* line 2, ../sass/module/_about.scss */
+.about img {
+  padding: 10px 0;
+}
