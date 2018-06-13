@@ -1,0 +1,36 @@
+.navbar{
+  border-radius: 0px;
+}
+.navbar-inverse{
+	background-color: $primary-color;
+	border: none;
+  .navbar-brand{
+    color: #fff;
+    &:hover{
+      color: #fff;
+    }
+  }
+	.navbar-nav>li>a{
+		color: #fff;
+		&:hover{
+			color: #fff;
+			background-color: #5b0791;
+		}
+	}
+  .nav-shit{
+    color: #fff;
+    .group{
+      display: flex;
+      .icon{
+        width: 50%;
+      }
+      .caption{
+        width: 50%;
+        padding-top: 15px;
+        .txt-dis{
+          text-align: left;
+        }
+      }
+    }
+  }
+}
