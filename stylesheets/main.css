@@ -36,6 +36,22 @@ body {
   color: #fff;
 }
 
+/* line 38, ../sass/base/_base.scss */
+.owl-nav button {
+  font-size: 1.5em !important;
+  color: #3f145b !important;
+}
+/* line 42, ../sass/base/_base.scss */
+.owl-nav .owl-prev {
+  float: left;
+  margin-left: 10px;
+}
+/* line 46, ../sass/base/_base.scss */
+.owl-nav .owl-next {
+  float: right;
+  margin-right: 10px;
+}
+
 /* line 2, ../sass/module/_about.scss */
 .about img {
   padding: 10px 0;
@@ -78,7 +94,7 @@ body {
 }
 /* line 24, ../sass/module/_nav.scss */
 .navbar-inverse .nav-shit .group .icon {
-  width: 50%;
+  width: 25%;
 }
 /* line 27, ../sass/module/_nav.scss */
 .navbar-inverse .nav-shit .group .caption {
