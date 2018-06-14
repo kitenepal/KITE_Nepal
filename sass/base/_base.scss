@@ -32,3 +32,19 @@ body{
     	color: #fff;
     }
 }
+
+//owl carousel
+.owl-nav{
+	button{
+		font-size: 1.5em!important;
+		color: $primary-color!important;
+	}
+	.owl-prev{
+		float: left;
+		margin-left: 10px;
+	}
+	.owl-next{
+		float: right;
+		margin-right: 10px;
+	}
+}
