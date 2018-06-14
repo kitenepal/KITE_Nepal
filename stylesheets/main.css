@@ -202,3 +202,78 @@ div.bhoechie-tab-content {
 div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   display: none;
 }
+
+/* line 1, ../sass/module/_nav.scss */
+.trans-back {
+  background-color: transparent !important;
+  transition: 0.5s;
+}
+/* line 4, ../sass/module/_nav.scss */
+.trans-back .nav-serv {
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+/* line 9, ../sass/module/_nav.scss */
+.navbar {
+  border-radius: 0px;
+}
+
+/* line 12, ../sass/module/_nav.scss */
+.navbar-inverse {
+  background-color: #3f145b;
+  transition: 0.5s;
+  border: none;
+}
+/* line 17, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+/* line 19, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: #fff;
+}
+/* line 23, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+/* line 25, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #5b0791;
+}
+/* line 30, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv {
+  color: #fff;
+  transition: 0.5s;
+}
+/* line 33, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group {
+  display: flex;
+  transition: 0.2s;
+  cursor: pointer;
+}
+/* line 37, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group:hover {
+  box-shadow: 0px 0px 5px 4px #3f145b;
+}
+/* line 40, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group .icon {
+  width: 25%;
+}
+/* line 43, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group .caption {
+  width: 50%;
+  padding-top: 15px;
+}
+/* line 46, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group .caption .txt-dis {
+  text-align: left;
+}
+
+/* line 54, ../sass/module/_nav.scss */
+.main-image {
+  height: 80vh;
+  background: url(../img/bg.jpg) no-repeat top center;
+  transition: .2s;
+}

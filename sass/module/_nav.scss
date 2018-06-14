@@ -1,8 +1,18 @@
+.trans-back{
+  background-color: transparent!important;
+  transition: 0.5s;
+  .nav-serv{
+    transition: 0.5s;
+    padding-top: 20px;
+  }
+}
 .navbar{
   border-radius: 0px;
 }
 .navbar-inverse{
 	background-color: $primary-color;
+  transition: 0.5s;
+
 	border: none;
   .navbar-brand{
     color: #fff;
@@ -17,10 +27,16 @@
 			background-color: #5b0791;
 		}
 	}
-  .nav-shit{
+  .nav-serv{
     color: #fff;
+    transition: 0.5s;
     .group{
       display: flex;
+      transition: 0.2s;
+      cursor:pointer;
+      &:hover{
+        box-shadow: 0px 0px 5px 4px $primary-color;
+      }
       .icon{
         width: 25%;
       }
@@ -33,4 +49,10 @@
       }
     }
   }
+}
+
+.main-image{
+  height: 80vh;
+  background: url(../img/bg.jpg) no-repeat top center;
+  transition: .2s;
 }
