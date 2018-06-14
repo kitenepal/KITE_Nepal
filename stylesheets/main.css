@@ -40,3 +40,52 @@ body {
 .about img {
   padding: 10px 0;
 }
+
+/* line 1, ../sass/module/_nav.scss */
+.navbar {
+  border-radius: 0px;
+}
+
+/* line 4, ../sass/module/_nav.scss */
+.navbar-inverse {
+  background-color: #3f145b;
+  border: none;
+}
+/* line 7, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+/* line 9, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: #fff;
+}
+/* line 13, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+/* line 15, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #5b0791;
+}
+/* line 20, ../sass/module/_nav.scss */
+.navbar-inverse .nav-shit {
+  color: #fff;
+}
+/* line 22, ../sass/module/_nav.scss */
+.navbar-inverse .nav-shit .group {
+  display: flex;
+}
+/* line 24, ../sass/module/_nav.scss */
+.navbar-inverse .nav-shit .group .icon {
+  width: 50%;
+}
+/* line 27, ../sass/module/_nav.scss */
+.navbar-inverse .nav-shit .group .caption {
+  width: 50%;
+  padding-top: 15px;
+}
+/* line 30, ../sass/module/_nav.scss */
+.navbar-inverse .nav-shit .group .caption .txt-dis {
+  text-align: left;
+}
