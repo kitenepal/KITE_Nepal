@@ -1,23 +1,24 @@
-/* line 1, ../sass/base/_base.scss */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+/* line 2, ../sass/base/_base.scss */
 body {
   background-image: url("../img/b-g.jpg");
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-size: 16px;
 }
 
-/* line 8, ../sass/base/_base.scss */
+/* line 9, ../sass/base/_base.scss */
 .section-padding {
   padding: 3em 0;
 }
 
-/* line 13, ../sass/base/_base.scss */
+/* line 14, ../sass/base/_base.scss */
 .heading {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
 }
 
-/* line 19, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 .primary-btn {
   text-align: center;
   text-transform: uppercase;
@@ -30,177 +31,32 @@ body {
   border: none;
   font-weight: 500;
 }
-/* line 30, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .primary-btn:hover {
   background-color: #5b0791;
   color: #fff;
 }
 
-/* line 38, ../sass/base/_base.scss */
+/* line 37, ../sass/base/_base.scss */
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 44, ../sass/base/_base.scss */
 .owl-nav button {
   font-size: 1.5em !important;
   color: #3f145b !important;
 }
-/* line 42, ../sass/base/_base.scss */
+/* line 48, ../sass/base/_base.scss */
 .owl-nav .owl-prev {
   float: left;
   margin-left: 10px;
 }
-/* line 46, ../sass/base/_base.scss */
+/* line 52, ../sass/base/_base.scss */
 .owl-nav .owl-next {
   float: right;
   margin-right: 10px;
-}
-
-/* line 1, ../sass/module/_nav.scss */
-.navbar {
-  border-radius: 0px;
-}
-
-/* line 4, ../sass/module/_nav.scss */
-.navbar-inverse {
-  background-color: #3f145b;
-  border: none;
-}
-/* line 7, ../sass/module/_nav.scss */
-.navbar-inverse .navbar-brand {
-  color: #fff;
-}
-/* line 9, ../sass/module/_nav.scss */
-.navbar-inverse .navbar-brand:hover {
-  color: #fff;
-}
-/* line 13, ../sass/module/_nav.scss */
-.navbar-inverse .navbar-nav > li > a {
-  color: #fff;
-}
-/* line 15, ../sass/module/_nav.scss */
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #fff;
-  background-color: #5b0791;
-}
-/* line 20, ../sass/module/_nav.scss */
-.navbar-inverse .nav-shit {
-  color: #fff;
-}
-/* line 22, ../sass/module/_nav.scss */
-.navbar-inverse .nav-shit .group {
-  display: flex;
-}
-/* line 24, ../sass/module/_nav.scss */
-.navbar-inverse .nav-shit .group .icon {
-  width: 25%;
-}
-/* line 27, ../sass/module/_nav.scss */
-.navbar-inverse .nav-shit .group .caption {
-  width: 50%;
-  padding-top: 15px;
-}
-/* line 30, ../sass/module/_nav.scss */
-.navbar-inverse .nav-shit .group .caption .txt-dis {
-  text-align: left;
-}
-
-/* line 2, ../sass/module/_about.scss */
-.about img {
-  padding: 10px 0;
-}
-
-/* line 2, ../sass/module/_services.scss */
-.services .tab-content {
-  padding: 20px 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-top: 0;
-}
-
-/*  bhoechie tab */
-/* line 3, ../sass/module/_clients.scss */
-div.bhoechie-tab-container {
-  z-index: 10;
-  background-color: #ffffff;
-  padding: 0 !important;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  border: 1px solid #ddd;
-  margin-top: 20px;
-  margin-left: 50px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  background-clip: padding-box;
-  opacity: 0.97;
-  filter: alpha(opacity=97);
-}
-
-/* line 19, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu {
-  padding-right: 0;
-  padding-left: 0;
-  padding-bottom: 0;
-}
-
-/* line 24, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group {
-  margin-bottom: 0;
-}
-
-/* line 27, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group > a {
-  margin-bottom: 0;
-}
-
-/* line 30, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group > a .glyphicon,
-div.bhoechie-tab-menu div.list-group > a .fa {
-  color: #5A55A3;
-}
-
-/* line 34, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group > a:first-child {
-  border-top-right-radius: 0;
-  -moz-border-top-right-radius: 0;
-}
-
-/* line 38, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group > a:last-child {
-  border-bottom-right-radius: 0;
-  -moz-border-bottom-right-radius: 0;
-}
-
-/* line 42, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group > a.active,
-div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
-div.bhoechie-tab-menu div.list-group > a.active .fa {
-  background-color: #5A55A3;
-  background-image: #5A55A3;
-  color: #ffffff;
-}
-
-/* line 49, ../sass/module/_clients.scss */
-div.bhoechie-tab-menu div.list-group > a.active:after {
-  content: '';
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  margin-top: -13px;
-  border-left: 0;
-  border-bottom: 13px solid transparent;
-  border-top: 13px solid transparent;
-  border-left: 10px solid #5A55A3;
-}
-
-/* line 61, ../sass/module/_clients.scss */
-div.bhoechie-tab-content {
-  background-color: #ffffff;
-  /* border: 1px solid #eeeeee; */
-  padding-left: 20px;
-  padding-top: 10px;
-}
-
-/* line 68, ../sass/module/_clients.scss */
-div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
-  display: none;
 }
 
 /* line 1, ../sass/module/_nav.scss */
@@ -276,4 +132,136 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   height: 80vh;
   background: url(../img/bg.jpg) no-repeat top center;
   transition: .2s;
+}
+
+/* line 2, ../sass/module/_about.scss */
+.about img {
+  padding: 10px 0;
+}
+
+/* line 2, ../sass/module/_services.scss */
+.services .tab-content {
+  padding: 20px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+/*  bhoechie tab */
+/* line 3, ../sass/module/_clients.scss */
+div.bhoechie-tab-container {
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 50px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+
+/* line 19, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+/* line 24, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group {
+  margin-bottom: 0;
+}
+
+/* line 27, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a {
+  margin-bottom: 0;
+}
+
+/* line 30, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a .glyphicon,
+div.bhoechie-tab-menu div.list-group > a .fa {
+  color: #3f145b;
+}
+
+/* line 34, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+
+/* line 38, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+
+/* line 42, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a.active,
+div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group > a.active .fa {
+  background-color: #3f145b;
+  background-image: #3f145b;
+  color: #ffffff;
+}
+
+/* line 49, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #3f145b;
+}
+
+/* line 61, ../sass/module/_clients.scss */
+div.bhoechie-tab-content {
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* line 68, ../sass/module/_clients.scss */
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+  display: none;
+}
+
+/* line 73, ../sass/module/_clients.scss */
+.clients .list-group-item {
+  padding: 25px 15px;
+}
+/* line 76, ../sass/module/_clients.scss */
+.clients--content {
+  padding-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  color: #3f145b;
+}
+/* line 82, ../sass/module/_clients.scss */
+.clients--content img {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 85, ../sass/module/_clients.scss */
+.clients--content h4 {
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* line 91, ../sass/module/_clients.scss */
+.clients--content:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: zoom-in;
 }
