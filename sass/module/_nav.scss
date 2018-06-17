@@ -51,8 +51,16 @@
   }
 }
 
-.main-image{
-  height: 80vh;
-  background: url(../img/bg.jpg) no-repeat top center;
-  transition: .2s;
+.btn--md{
+  border-radius: 50%;
+  position: absolute;
+  z-index: 7;
+  top: 50%;
+  right: 0;
+  &:focus{
+    outline: none;
+  }
+  &:active{
+    outline: none;
+  }
 }
