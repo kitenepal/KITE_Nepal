@@ -128,10 +128,20 @@ a:hover {
 }
 
 /* line 54, ../sass/module/_nav.scss */
-.main-image {
-  height: 80vh;
-  background: url(../img/bg.jpg) no-repeat top center;
-  transition: .2s;
+.btn--md {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 7;
+  top: 50%;
+  right: 0;
+}
+/* line 60, ../sass/module/_nav.scss */
+.btn--md:focus {
+  outline: none;
+}
+/* line 63, ../sass/module/_nav.scss */
+.btn--md:active {
+  outline: none;
 }
 
 /* line 2, ../sass/module/_about.scss */
