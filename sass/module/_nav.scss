@@ -53,8 +53,8 @@
 
 .btn--md{
   border-radius: 50%;
-  position: absolute;
-  z-index: 7;
+  position: fixed;
+  z-index: 777;
   top: 50%;
   right: 0;
   &:focus{
@@ -63,4 +63,31 @@
   &:active{
     outline: none;
   }
+}
+
+
+.modal-dialog{
+  margin-top: 90px;
+}
+.modal-content{
+  background: $primary-color;
+  color: #fff;
+}
+.modal-header{
+  border-bottom: none;
+  button{
+    outline: none;
+    color: #fff;
+    opacity: .8;
+    transition: .2s;
+  }
+}
+.modal-footer{
+    border-top: none;
+}
+.modal-body input{
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid;
+  outline: none;
 }
