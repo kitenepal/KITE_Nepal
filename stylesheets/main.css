@@ -16,9 +16,10 @@ body {
 .heading {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
-/* line 20, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
 .primary-btn {
   text-align: center;
   text-transform: uppercase;
@@ -31,29 +32,29 @@ body {
   border: none;
   font-weight: 500;
 }
-/* line 31, ../sass/base/_base.scss */
+/* line 32, ../sass/base/_base.scss */
 .primary-btn:hover {
   background-color: #5b0791;
   color: #fff;
 }
 
-/* line 37, ../sass/base/_base.scss */
+/* line 38, ../sass/base/_base.scss */
 a:hover {
   text-decoration: none;
   outline: none;
 }
 
-/* line 44, ../sass/base/_base.scss */
+/* line 45, ../sass/base/_base.scss */
 .owl-nav button {
   font-size: 1.5em !important;
   color: #3f145b !important;
 }
-/* line 48, ../sass/base/_base.scss */
+/* line 49, ../sass/base/_base.scss */
 .owl-nav .owl-prev {
   float: left;
   margin-left: 10px;
 }
-/* line 52, ../sass/base/_base.scss */
+/* line 53, ../sass/base/_base.scss */
 .owl-nav .owl-next {
   float: right;
   margin-right: 10px;
@@ -285,4 +286,32 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .testimonial_btn {
   background-color: #3f145b !important;
   color: #fff !important;
+}
+
+/* line 1, ../sass/module/_gallery.scss */
+.gallery--item {
+  position: relative;
+  padding-top: 15px;
+}
+
+/* line 6, ../sass/module/_gallery.scss */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  background: rgba(63, 20, 91, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 21, ../sass/module/_gallery.scss */
+.gallery--item:hover .overlay {
+  opacity: 1;
 }
