@@ -66,12 +66,26 @@
 }
 
 
+//floating contact
 .modal-dialog{
   margin-top: 90px;
 }
 .modal-content{
   background: $primary-color;
   color: #fff;
+  i{
+    margin-top: 25px;
+    padding: 6px;
+    border-radius: 50%;
+    transition: 0.2s;
+    font-size: 1.2em;
+    border: 1px solid;
+    width: 35px;
+    &:hover{
+      transform: translateY(-4px);
+      color: #999;
+    }
+  }
 }
 .modal-header{
   border-bottom: none;
@@ -90,4 +104,6 @@
   padding: 2px;
   border: 1px solid;
   outline: none;
+  width: 100%;
+  margin-bottom: 10px;
 }

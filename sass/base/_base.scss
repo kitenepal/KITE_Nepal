@@ -4,7 +4,9 @@ body{
 	font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-size: 16px;
-
+	&::-webkit-scrollbar{
+		display: none;	
+	}
 }
 //section-padding
 .section-padding{
