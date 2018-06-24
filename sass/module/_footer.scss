@@ -1,0 +1,31 @@
+footer{
+	background-color: $primary-color;
+	background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
+
+	color: #fff;
+	ul{
+		display: inline;
+		li{
+		list-style-type: none;
+		a{
+			color: #fff;
+			transition: 0.2s;
+			&:hover{
+				color: #c0c0c0;
+				border-left: 2px solid #fff;
+				padding-left: 10px;
+			}
+		}
+		}
+	}
+}
+
+.copyright{
+	background-color: #280c3a;
+	color: #fff;
+	bottom: 0;
+	h4{
+		margin: 0;
+		padding: 10px 0;
+	}
+}

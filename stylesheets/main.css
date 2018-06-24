@@ -342,3 +342,41 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .gallery--item:hover .overlay {
   opacity: 1;
 }
+
+/* line 1, ../sass/module/_footer.scss */
+footer {
+  background-color: #3f145b;
+  background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
+  color: #fff;
+}
+/* line 6, ../sass/module/_footer.scss */
+footer ul {
+  display: inline;
+}
+/* line 8, ../sass/module/_footer.scss */
+footer ul li {
+  list-style-type: none;
+}
+/* line 10, ../sass/module/_footer.scss */
+footer ul li a {
+  color: #fff;
+  transition: 0.2s;
+}
+/* line 13, ../sass/module/_footer.scss */
+footer ul li a:hover {
+  color: #c0c0c0;
+  border-left: 2px solid #fff;
+  padding-left: 10px;
+}
+
+/* line 23, ../sass/module/_footer.scss */
+.copyright {
+  background-color: #280c3a;
+  color: #fff;
+  bottom: 0;
+}
+/* line 27, ../sass/module/_footer.scss */
+.copyright h4 {
+  margin: 0;
+  padding: 10px 0;
+}
