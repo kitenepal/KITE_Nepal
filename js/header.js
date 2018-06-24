@@ -1,4 +1,4 @@
-	$(window).scroll(()=>{
+$(window).scroll(()=>{
 	var windowTop = $(window).scrollTop();
 	windowTop > 70 ? $('nav').removeClass('trans-back') : $('nav').addClass('trans-back');
 });
