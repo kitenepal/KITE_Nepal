@@ -1,8 +1,10 @@
 footer{
 	background-color: $primary-color;
 	background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
-
 	color: #fff;
+	h3{
+		font-weight: bold;
+	}
 	ul{
 		display: inline;
 		li{
