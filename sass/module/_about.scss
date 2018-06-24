@@ -1,41 +1,10 @@
 .about{
 	img{
 		padding: 10px 0;
+		transition: 0.2s;
+		&:hover{
+			border-top-left-radius: 50px;
+			border-bottom-right-radius: 50px;
+		}
 	}
 }
-
-// owl carousel
-
-// .carousel-wrap {
-//   margin: 90px auto;
-//   padding: 0 5%;
-//   width: 80%;
-//   position: relative;
-// }
-
-// /* fix blank or flashing items on carousel */
-// .owl-carousel .item {
-//   position: relative;
-//   z-index: 100; 
-//   -webkit-backface-visibility: hidden; 
-// }
-
-// /* end fix */
-// .owl-nav > div {
-//   margin-top: -26px;
-//   position: absolute;
-//   top: 50%;
-//   color: #cdcbcd;
-// }
-
-// .owl-nav i {
-//   font-size: 52px;
-// }
-
-// .owl-nav .owl-prev {
-//   left: -30px;
-// }
-
-// .owl-nav .owl-next {
-//   right: -30px;
-// }

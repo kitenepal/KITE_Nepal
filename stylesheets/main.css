@@ -175,6 +175,12 @@ a:hover {
 /* line 2, ../sass/module/_about.scss */
 .about img {
   padding: 10px 0;
+  transition: 0.2s;
+}
+/* line 5, ../sass/module/_about.scss */
+.about img:hover {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 /* line 2, ../sass/module/_services.scss */
