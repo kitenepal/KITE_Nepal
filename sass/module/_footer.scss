@@ -2,6 +2,10 @@ footer{
 	background-color: $primary-color;
 	background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
 	color: #fff;
+	border-top: 5px solid #7f30b2;
+	.footer-logo{
+		padding-bottom: 10px;
+	}
 	h3{
 		font-weight: bold;
 	}
