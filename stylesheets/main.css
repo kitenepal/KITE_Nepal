@@ -179,8 +179,31 @@ a:hover {
 }
 /* line 5, ../sass/module/_about.scss */
 .about img:hover {
-  border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+
+/* line 11, ../sass/module/_about.scss */
+.owl-carousel .owl-nav button {
+  outline: none;
+}
+
+/* line 16, ../sass/module/_about.scss */
+.carousel-wrap .owl-carousel .extra {
+  position: absolute;
+  z-index: 99;
+  bottom: 10px;
+  right: 0;
+  opacity: 0;
+  padding: 10px 0px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: rgba(63, 20, 91, 0.4);
+  transition: 0.2s;
+}
+/* line 29, ../sass/module/_about.scss */
+.carousel-wrap .owl-carousel:hover .extra {
+  opacity: 1;
 }
 
 /* line 2, ../sass/module/_services.scss */
