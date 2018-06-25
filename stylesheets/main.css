@@ -196,7 +196,7 @@ a:hover {
 div.bhoechie-tab-container {
   z-index: 10;
   background-color: #ffffff;
-  padding: 0 !important;
+  padding-bottom: 10px !important;
   border-radius: 4px;
   -moz-border-radius: 4px;
   border: 1px solid #ddd;
@@ -249,11 +249,10 @@ div.bhoechie-tab-menu div.list-group > a.active,
 div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
 div.bhoechie-tab-menu div.list-group > a.active .fa {
   background-color: #3f145b;
-  background-image: #3f145b;
   color: #ffffff;
 }
 
-/* line 48, ../sass/module/_clients.scss */
+/* line 47, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a.active:after {
   content: '';
   position: absolute;
@@ -266,7 +265,7 @@ div.bhoechie-tab-menu div.list-group > a.active:after {
   border-left: 10px solid #3f145b;
 }
 
-/* line 60, ../sass/module/_clients.scss */
+/* line 59, ../sass/module/_clients.scss */
 div.bhoechie-tab-content {
   background-color: #ffffff;
   /* border: 1px solid #eeeeee; */
@@ -274,18 +273,19 @@ div.bhoechie-tab-content {
   padding-top: 10px;
 }
 
-/* line 67, ../sass/module/_clients.scss */
+/* line 66, ../sass/module/_clients.scss */
 div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   display: none;
 }
 
-/* line 72, ../sass/module/_clients.scss */
+/* line 71, ../sass/module/_clients.scss */
 .clients .list-group-item {
-  padding: 25px 15px;
+  padding: 20px 0;
 }
-/* line 75, ../sass/module/_clients.scss */
+/* line 74, ../sass/module/_clients.scss */
 .clients--content {
   padding-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 3px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -309,6 +309,12 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   cursor: zoom-in;
 }
 
+@media only screen and (max-width: 750px) {
+  /* line 100, ../sass/module/_clients.scss */
+  .clients div.bhoechie-tab-menu div.list-group > a.active:after {
+    display: none;
+  }
+}
 /* line 1, ../sass/module/_testimonial.scss */
 .testimonial_subtitle {
   color: #3f145b;
