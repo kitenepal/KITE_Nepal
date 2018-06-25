@@ -372,6 +372,13 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   opacity: 1;
 }
 
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.trekkingmart.com/public/images/upload/package/slider/pimage_bhaktapur-durbar-square-sightseeing-1.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
 /* line 1, ../sass/module/_footer.scss */
 footer {
   background-color: #3f145b;
