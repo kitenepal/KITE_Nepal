@@ -1,8 +1,18 @@
 .services{
+	.nav-tabs{
+		li a{
+			color: $primary-color;
+		}
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+			color: $primary-color;
+			font-weight: bold;
+		}
 	.tab-content{
 		padding: 20px 10px;
 		background-color: #fff;
 		border: 1px solid #ccc;
 		border-top: 0;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	}
 }
