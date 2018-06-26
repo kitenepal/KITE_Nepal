@@ -8,8 +8,17 @@
 	}
 }
 
-.owl-carousel .owl-nav button{
-	outline: none;
+.owl-carousel .owl-nav{
+	button{
+		outline: none;
+		width: 50%;
+		transform: translateY(-12px);
+	}
+	i{
+		color: #fff!important;
+		background-color: $primary-color!important;
+		padding: 3px 10px!important;
+	}
 }
 
 .carousel-wrap .owl-carousel{

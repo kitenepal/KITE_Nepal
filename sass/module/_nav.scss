@@ -56,9 +56,27 @@
     }
   }
 }
+@media screen and (min-width:767px){
+  .nav-serv--md{
+    display: none;
+  }
+}
 @media screen and (max-width:767px){
-  .navbar-inverse .nav-serv .group{
-    border-bottom: 1px solid;
+  .navbar-inverse .nav-serv .group .icon{
+    width: 65%;
+  }
+  .nav-serv{
+    display: none;
+  }
+  .nav-serv--md{
+    display: block;
+    position: absolute;
+    .col-xs-2{
+      margin: 0px auto;
+    }
+  }
+  .trans-back .nav-serv {
+    padding-top: 10px;
   }
 }
 @media screen and (max-width:450px){

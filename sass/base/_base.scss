@@ -5,7 +5,7 @@ body{
   font-weight: 300;
   font-size: 16px;
 	&::-webkit-scrollbar{
-		display: none;	
+		display: none;
 	}
 }
 //section-padding
@@ -45,16 +45,8 @@ a:hover{
 
 //owl carousel
 .owl-nav{
+	text-align: center;
 	button{
 		font-size: 1.5em!important;
-		color: $primary-color!important;
-	}
-	.owl-prev{
-		float: left;
-		margin-left: 10px;
-	}
-	.owl-next{
-		float: right;
-		margin-right: 10px;
 	}
 }
