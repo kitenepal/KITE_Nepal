@@ -223,6 +223,10 @@ a:hover {
   border-top: 0;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
+/* line 18, ../sass/module/_services.scss */
+.services .carousel {
+  padding-top: 45px;
+}
 
 /*  bhoechie tab */
 /* line 3, ../sass/module/_clients.scss */
