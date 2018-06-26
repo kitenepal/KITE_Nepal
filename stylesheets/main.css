@@ -416,7 +416,7 @@ footer {
   background-color: #3f145b;
   background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
   color: #fff;
-  border-top: 5px solid #7f30b2;
+  border-top: 5px solid #2f0e44;
 }
 /* line 6, ../sass/module/_footer.scss */
 footer .footer-logo {
@@ -448,7 +448,7 @@ footer ul li a:hover {
 
 /* line 29, ../sass/module/_footer.scss */
 .copyright {
-  background-color: #280c3a;
+  background-color: #2f0e44;
   color: #fff;
   bottom: 0;
 }
