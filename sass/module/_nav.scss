@@ -56,6 +56,8 @@
     }
   }
 }
+
+
 @media screen and (min-width:767px){
   .nav-serv--md{
     display: none;
@@ -80,6 +82,14 @@
   }
   .trans-back .nav-serv {
     padding-top: 10px;
+  }
+  //navbar style in responsive
+  .navbar-nav {
+    background: $primary-color;
+    margin: 0.5px -15px;
+  }
+  .navbar-inverse .navbar-collapse{
+    border-color: transparent;
   }
 }
 @media screen and (max-width:450px){
