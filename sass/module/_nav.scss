@@ -17,7 +17,7 @@
 	border: none;
   .navbar-brand{
     color: #fff;
-    padding: 5px 15px;
+    padding: 3px 10px;
     img{
       width: 45px;
     }
@@ -62,8 +62,11 @@
   }
 }
 @media screen and (max-width:767px){
-  .navbar-inverse .nav-serv .group .icon{
-    width: 65%;
+  .navbar-inverse .nav-serv{
+    padding: 5px 0px;
+    .group .icon{
+      width: 65%;
+    }
   }
   .nav-serv{
     display: none;
@@ -84,7 +87,11 @@
     padding-top: 0px;
   }
   .trans-back .nav-serv{
-    padding-top: 0px;
+    padding-top: 10px;
+  }
+  .nav-serv .col-xs-3{
+    padding-right: 5px;
+    padding-left: 10px;
   }
 }
 
