@@ -18,6 +18,11 @@
 		color: #fff!important;
 		background-color: $primary-color!important;
 		padding: 3px 10px!important;
+		width: 100%;
+		transition: 0.2s;
+		&:active{
+			background: #905bb3!important;
+		}
 	}
 }
 
