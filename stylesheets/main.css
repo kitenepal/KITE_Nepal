@@ -37,7 +37,7 @@ body::-webkit-scrollbar {
   font-weight: 500;
 }
 /* line 35, ../sass/base/_base.scss */
-.primary-btn:hover {
+.primary-btn:hover, .primary-btn:focus {
   background-color: #5b0791;
   color: #fff;
 }
