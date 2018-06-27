@@ -37,7 +37,7 @@ body::-webkit-scrollbar {
   font-weight: 500;
 }
 /* line 35, ../sass/base/_base.scss */
-.primary-btn:hover {
+.primary-btn:hover, .primary-btn:focus {
   background-color: #5b0791;
   color: #fff;
 }
@@ -249,16 +249,28 @@ a:hover {
   opacity: 1;
 }
 
+/* line 1, ../sass/module/_services.scss */
+.services {
+  background-color: rgba(63, 20, 91, 0.8);
+}
 /* line 3, ../sass/module/_services.scss */
-.services .nav-tabs li a {
-  color: #3f145b;
+.services .heading {
+  color: #fff;
 }
 /* line 7, ../sass/module/_services.scss */
+.services .nav-tabs li a {
+  color: #fff;
+}
+/* line 10, ../sass/module/_services.scss */
+.services .nav-tabs li a:hover {
+  color: #3f145b;
+}
+/* line 15, ../sass/module/_services.scss */
 .services .nav-tabs > li.active > a, .services .nav-tabs > li.active > a:focus, .services .nav-tabs > li.active > a:hover {
   color: #3f145b;
   font-weight: bold;
 }
-/* line 11, ../sass/module/_services.scss */
+/* line 19, ../sass/module/_services.scss */
 .services .tab-content {
   padding: 20px 10px;
   background-color: #fff;
@@ -266,13 +278,13 @@ a:hover {
   border-top: 0;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
-/* line 18, ../sass/module/_services.scss */
+/* line 26, ../sass/module/_services.scss */
 .services .carousel {
   padding-top: 45px;
 }
 
 /*  bhoechie tab */
-/* line 3, ../sass/module/_clients.scss */
+/* line 2, ../sass/module/_clients.scss */
 div.bhoechie-tab-container {
   z-index: 10;
   background-color: #ffffff;
@@ -289,42 +301,42 @@ div.bhoechie-tab-container {
   filter: alpha(opacity=97);
 }
 
-/* line 18, ../sass/module/_clients.scss */
+/* line 17, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu {
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 0;
 }
 
-/* line 23, ../sass/module/_clients.scss */
+/* line 22, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group {
   margin-bottom: 0;
 }
 
-/* line 26, ../sass/module/_clients.scss */
+/* line 25, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a {
   margin-bottom: 0;
 }
 
-/* line 29, ../sass/module/_clients.scss */
+/* line 28, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a .glyphicon,
 div.bhoechie-tab-menu div.list-group > a .fa {
   color: #3f145b;
 }
 
-/* line 33, ../sass/module/_clients.scss */
+/* line 32, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a:first-child {
   border-top-right-radius: 0;
   -moz-border-top-right-radius: 0;
 }
 
-/* line 37, ../sass/module/_clients.scss */
+/* line 36, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a:last-child {
   border-bottom-right-radius: 0;
   -moz-border-bottom-right-radius: 0;
 }
 
-/* line 41, ../sass/module/_clients.scss */
+/* line 40, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a.active,
 div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
 div.bhoechie-tab-menu div.list-group > a.active .fa {
@@ -332,7 +344,7 @@ div.bhoechie-tab-menu div.list-group > a.active .fa {
   color: #ffffff;
 }
 
-/* line 47, ../sass/module/_clients.scss */
+/* line 46, ../sass/module/_clients.scss */
 div.bhoechie-tab-menu div.list-group > a.active:after {
   content: '';
   position: absolute;
@@ -345,7 +357,7 @@ div.bhoechie-tab-menu div.list-group > a.active:after {
   border-left: 10px solid #3f145b;
 }
 
-/* line 59, ../sass/module/_clients.scss */
+/* line 58, ../sass/module/_clients.scss */
 div.bhoechie-tab-content {
   background-color: #ffffff;
   /* border: 1px solid #eeeeee; */
@@ -353,16 +365,16 @@ div.bhoechie-tab-content {
   padding-top: 10px;
 }
 
-/* line 66, ../sass/module/_clients.scss */
+/* line 65, ../sass/module/_clients.scss */
 div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   display: none;
 }
 
-/* line 71, ../sass/module/_clients.scss */
+/* line 70, ../sass/module/_clients.scss */
 .clients .list-group-item {
   padding: 20px 0;
 }
-/* line 74, ../sass/module/_clients.scss */
+/* line 73, ../sass/module/_clients.scss */
 .clients--content {
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -371,18 +383,18 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   transition: all 0.2s ease-in-out;
   color: #3f145b;
 }
-/* line 81, ../sass/module/_clients.scss */
+/* line 80, ../sass/module/_clients.scss */
 .clients--content img {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-/* line 84, ../sass/module/_clients.scss */
+/* line 83, ../sass/module/_clients.scss */
 .clients--content h4 {
   text-align: center;
   padding: 5px 0;
   margin-top: 20px;
   font-weight: bold;
 }
-/* line 90, ../sass/module/_clients.scss */
+/* line 89, ../sass/module/_clients.scss */
 .clients--content:hover {
   transform: scale(1.02);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -390,7 +402,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 }
 
 @media only screen and (max-width: 750px) {
-  /* line 100, ../sass/module/_clients.scss */
+  /* line 99, ../sass/module/_clients.scss */
   .clients div.bhoechie-tab-menu div.list-group > a.active:after {
     display: none;
   }
@@ -447,7 +459,7 @@ footer {
   background-color: #3f145b;
   background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
   color: #fff;
-  border-top: 5px solid #7f30b2;
+  border-top: 5px solid #2f0e44;
 }
 /* line 6, ../sass/module/_footer.scss */
 footer .footer-logo {
@@ -479,7 +491,7 @@ footer ul li a:hover {
 
 /* line 29, ../sass/module/_footer.scss */
 .copyright {
-  background-color: #280c3a;
+  background-color: #2f0e44;
   color: #fff;
   bottom: 0;
 }
