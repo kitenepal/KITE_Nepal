@@ -561,3 +561,7 @@ footer #social-em:hover {
 .team .social {
   color: #3f145b;
 }
+/* line 14, ../sass/module/_team.scss */
+.team--member {
+  padding: 20px 0;
+}
