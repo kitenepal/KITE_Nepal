@@ -4,6 +4,9 @@
   .nav-serv{
     transition: 0.5s;
     padding-top: 20px;
+    .group:hover{
+      box-shadow: 0px 0px 5px 4px $primary-color!important;
+    }
   }
 }
 
@@ -41,7 +44,7 @@
       transition: 0.2s;
       cursor:pointer;
       &:hover{
-        box-shadow: 0px 0px 5px 4px $primary-color;
+        box-shadow: 0px 0px 5px 4px #703f90;
       }
       .icon{
         width: 25%;
