@@ -450,6 +450,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   /* Black see-through */
   color: #f1f1f1;
   width: 100%;
+  cursor: pointer;
   transition: .5s ease;
   opacity: 0;
   color: white;
@@ -458,7 +459,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   text-align: center;
 }
 
-/* line 21, ../sass/module/_gallery.scss */
+/* line 22, ../sass/module/_gallery.scss */
 .gallery--item:hover .overlay {
   opacity: 1;
 }
