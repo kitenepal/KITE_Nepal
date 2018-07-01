@@ -1,5 +1,6 @@
 .trans-back{
   background-color: transparent!important;
+  box-shadow: 0px 0px 0px 0px #3f145b!important;
   transition: 0.5s;
   .nav-serv{
     transition: 0.5s;
@@ -12,9 +13,10 @@
 
 .navbar{
   border-radius: 0px;
+  box-shadow: 0px 0px 5px 1px #3f145b;
 }
 .navbar-inverse{
-	background-color: $primary-color;
+	background-color: #2f0e44;
   transition: 0.5s;
 
 	border: none;
